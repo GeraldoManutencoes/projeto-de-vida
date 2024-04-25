@@ -14,7 +14,7 @@ html{
 
 .conteudo-principal{
     color: white;
-    width: 80%;
+    width: 65%;
     height: 100%;
     margin: 60px auto 0px auto;
 }
@@ -32,13 +32,64 @@ html{
 }
 
 .botao{
-    width: 25%;
-    padding: 20px;
-    background-color: #3A375E;
     border: 0;
+    border-bottom: 5px solid #3a375e;
+    width: 25%;
+    padding: 30px;
+    background-color: #201d3b;
     color: white;
 }
 
-.pbotao{
-    
+.botao--first{
+    border-bottom: 5px solid #6FFF57;
+    border-top-left-radius: 30px;
+    background-color: #3a375e !important;
+}
+
+.botao--last{
+    border-top-right-radius: 30px;
+}
+
+.Tcontent{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Tcontent h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: .65rem;
+    color: #6FFF57;
+}
+
+.conteudo{
+    background-color: #161429;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.timer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.date{
+    text-align: center;
+}
+
+.date .number{
+    font-size: 3.5rem;
+}
+
+.date .desc{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #6FFF57;
 }
